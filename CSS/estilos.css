@@ -1,0 +1,501 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Aplicacion de Grids */
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 0,5fr 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+.gridContainerHijos{
+    text-align: center;
+    padding: 10px;
+
+}
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+
+/* Para carrera profesional */
+body{
+    background-color: rgb(43, 39, 39);
+}
+
+.textoCP{
+    color: white;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.mainCP{
+    margin-top: 13rem;
+}
+
+.tituloCP{
+    font-size: 7rem;
+    margin-left: 30rem;
+}
+
+.subtitulosCP{
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: rgb(46, 188, 207);
+}
+
+.parrafoCP{
+    margin-right: 40rem;
+}
+
+/* Para menu */
+
+.aguero1{
+    height: 26rem;
+    grid-area: Aguero1;
+}
+.aguero2{
+    height: 22,5rem;
+    width: 47rem;
+    grid-area: Aguero2;
+}
+.aguero3{
+    grid-area: Aguero3;
+}
+.aguero4{
+    grid-area: Aguero4;
+}
+.aguero5{
+    grid-area: Aguero5;
+}
+.aguero6{
+    grid-area: Aguero6;
+}
+.aguero7{
+    grid-area: Aguero7;
+}
+.aguero8{
+    grid-area: Aguero8;
+}
+.aguero9{
+    grid-area: Aguero9;
+}
+.fotosAguero{
+    margin: 1rem;
+}
+
+.gridMenu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-area:
+    "Aguero1 Aguero2 Aguero2"
+    "Aguero3 Aguero4 Aguero5" 
+    "Aguero3 Aguero6 Aguero5"
+    "Aguero7 Aguero8 Aguero9";
+    height: 1000px;
+    width: 2500px;
+    margin:15rem 0 0 3rem;
+}
+
+/* Para navegacion */
+.sectionNav{
+    display: block;
+    margin-top: 15rem;
+}
+.tituloNav{
+    margin-left: 30rem;
+}
+.links{
+    display: block;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+
+/* Para contacto */
+.sectionCon{
+    font-size: 3rem;
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.formulario{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+header{
+    display:flex;
+    height: 70px;
+    background-color: rgb(46, 188, 207);
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+}
+
+.logoNombre{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 600;
+    padding-left: 1rem;
+    transition: all 0.5s;
+}
+
+nav a:hover{
+    font-size: 110%;
+    color: white;
+}
+
+.menuPrincipal ul li{
+    display: inline-block;
+    padding: 2rem 3rem;
+}
+
+.textoMenu{
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+
+.centradoMenu{
+    margin-left: 10rem;
+}
+
+.fotoAguero{
+    width: 42rem;
+    height: 24rem;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+.displayFlex{
+    display: flex;
+}
+
+.textoParrafo{
+    font-size: 2rem;
+    text-align: justify;
+    display: inline-block;
+    margin: 8rem 35rem 0rem 5rem;
+    color: rgb(217, 231, 233);
+}
+
+.parrafoCP{
+    margin-right: 50rem;
+}
+
+.tituloPrincipal{
+    font-size: 9rem;
+    display: block;
+    text-align: center;
+    margin: 13rem 0 2rem 0;
+}
+
+.fotoAguero2{
+    width: 42rem;
+    height: 24rem;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 10rem;
+}
+
+.textoParrafo2{
+    font-size: 2rem;
+    text-align: justify;
+    display: inline-block;
+    margin: 20rem 60rem 0rem 5rem;
+    color: rgb(226, 235, 236);
+}
+
+.italica{
+    font-style: italic;
+}
+
+.colorFondo{
+    background-color:rgb(133, 174, 161)
+}
+
+.imagenFondo {
+    background-image: url("../Multimedia/ImagenAguero3.jpg");
+}
+
+.Kun {
+    color: antiquewhite;
+}
+
+.uKun{
+    color: yellow;
+}
+
+/*Para que todos los h1 tengan color celeste por ej*/
+h1{
+    color:rgb(46, 188, 207)
+}
+
+.spanFooter{
+    font-size: 1.3rem;
+    margin: 3rem 0 0 3rem;
+    display: block;
+    color: rgb(226, 235, 236)
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    margin-top: 15rem;
+    display: flex;
+}
+
+.redes{
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    margin: 0 0 3rem 2rem;
+}
+
+.redes ul {
+    list-style: none;
+}
+
+.redes ul li {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+    transition: all o.5s ease;
+}
+
+.redes ul li .fa{
+    color: white;
+    margin-top: 20px;
+    transition: all o.5s ease;
+}
+
+.redes ul li:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover .fa-twitter{
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover.instagram {
+    border: 5px solid #bc2a8d ;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover .fa-instagram{
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover.whatsapp {
+    border: 5px solid #4dc247 ;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+.redes ul li:hover .fa-whatsapp{
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+/* Aplicacion de Grids INDEX */
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 0,5fr 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+.gridContainerHijos{
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+
+
+
+/* ADAPTACION A TABLET */
+@media (max-width:768px) {
+    /*INDEX*/
+    .fotoAguero{
+        margin-top: 8rem;
+        width: 30rem;
+        height: 17rem;
+    }
+    .textoParrafo2{
+        font-size: 150%;
+        margin-top: 15rem;
+        margin-right: 3rem;
+    }
+    .textoParrafo{
+        font-size: 150%;
+        margin-right: 3rem;
+    }
+    .fotoAguero2{
+        width: 30rem;
+        height: 17rem;
+    }
+    .textoMenu{
+        font-size: 140%;
+        margin-left: 3rem;
+    }
+    .centradoMenu{
+        margin-left: 0;
+    }
+    .menuPrincipal ul li{
+        padding: 1rem;
+    }
+    .tituloPrincipal{
+        font-size: 6rem;
+    }
+    /*CARRERA PROFESIONAL*/
+    .textoCP{
+
+    }
+    .mainCP{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0rem;
+    }
+    .tituloCP{
+        justify-content: center;
+        font-size: 3.5rem;
+        margin-left: 20rem;
+    }
+    .textoParrafo{
+        padding-right: 0rem;
+        margin-right: 0rem;
+        margin-top: 9.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:500px) {
+    .gridContainer{
+        grid-template-columns: 1fr;
+    }
+    .displayFlex{
+        display: block;
+    }
+    .fotoAguero{
+        margin-left: 6rem;
+        margin-top: 2rem;
+        width: 30rem;
+        height: 17rem;
+    }
+    .textoParrafo2{
+        font-size: 150%;
+        margin: 3rem 6rem 0 6rem;
+    }
+    .textoParrafo{
+        font-size: 150%;
+        margin: 3rem 6rem 0 6rem;
+    }
+    .fotoAguero2{
+        margin: 4rem 0 0 6rem;
+        width: 30rem;
+        height: 17rem;
+    }
+    .textoMenu{
+        font-size: 110%;
+        margin-left: 9rem;
+        text-decoration: none;
+    }
+    .centradoMenu{
+        margin-left: 0;
+    }
+    .menuPrincipal ul li{
+        padding: 0.2rem;
+        display: block;
+        list-style-type: none;
+    }
+    .tituloPrincipal{
+        font-size: 3.5rem;
+    }
+    .logoNombre{
+        font-size: 170%;
+    }
+    .logo{
+        height:45px ;
+    }
+}
