@@ -151,6 +151,8 @@ header{
     right: 0;
     left: 0;
     top: 0;
+    z-index: 2;
+    background: radial-gradient(rgb(46, 188, 207), rgb(148, 195, 202));
 }
 
 .logo {
@@ -202,6 +204,7 @@ nav a:hover{
     display: inline-block;
     margin-left: 3rem;
     margin-top: 3rem;
+    transform: skew(2deg, 1.5deg);
 }
 
 .displayFlex{
@@ -233,6 +236,7 @@ nav a:hover{
     display: inline-block;
     margin-left: 3rem;
     margin-top: 10rem;
+    transform: skew(2deg, 1.5deg);
 }
 
 .textoParrafo2{
