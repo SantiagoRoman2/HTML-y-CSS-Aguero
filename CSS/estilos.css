@@ -43,7 +43,8 @@ body{
 .textoCP{
     color: white;
     font-size: 2rem;
-    margin: 3rem;
+    margin: 3rem 3rem 3rem 0rem;
+    margin-top: 6rem;
 }
 
 .mainCP{
@@ -56,13 +57,28 @@ body{
 }
 
 .subtitulosCP{
-    font-size: 3rem;
-    margin-top: 3rem;
+    font-size: 4rem;
+    padding-top: 10rem;
     color: rgb(46, 188, 207);
+    margin-left: 29rem;
 }
 
 .parrafoCP{
     margin-right: 40rem;
+}
+
+.DatosInteresCP{
+    display: flex;
+    flex-direction: column;
+}
+
+.padreInteresCP{
+    height: auto;
+}
+
+.parrafoInteres{
+    margin-top: 4rem;
+    width: 40rem;
 }
 
 /* Para menu */
@@ -209,18 +225,22 @@ nav a:hover{
 
 .displayFlex{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .textoParrafo{
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: justify;
     display: inline-block;
-    margin: 8rem 35rem 0rem 5rem;
+    margin: 3rem 35rem 0rem 5rem;
     color: rgb(217, 231, 233);
 }
 
 .parrafoCP{
     margin-right: 50rem;
+    font-size: 2.4rem;
+    color: rgb(217, 231, 233);
 }
 
 .tituloPrincipal{
@@ -252,11 +272,17 @@ nav a:hover{
 }
 
 .colorFondo{
-    background-color:rgb(133, 174, 161)
+    background-color:rgb(133, 174, 161);
 }
+
 
 .imagenFondo {
     background-image: url("../Multimedia/ImagenAguero3.jpg");
+}
+
+.imagenFondoCP {
+    background-image: url("../Multimedia/ImagenAguero3.jpg");
+    background-size: cover;
 }
 
 .Kun {
@@ -401,6 +427,11 @@ footer{
 /* ADAPTACION A TABLET */
 @media (max-width:768px) {
     /*INDEX*/
+    .redes{
+        scale: 0.8;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
     .fotoAguero{
         margin-top: 8rem;
         width: 30rem;
@@ -408,13 +439,10 @@ footer{
     }
     .textoParrafo2{
         font-size: 150%;
-        margin-top: 15rem;
+        margin-top: 17rem;
         margin-right: 3rem;
     }
-    .textoParrafo{
-        font-size: 150%;
-        margin-right: 3rem;
-    }
+
     .fotoAguero2{
         width: 30rem;
         height: 17rem;
@@ -433,9 +461,6 @@ footer{
         font-size: 6rem;
     }
     /*CARRERA PROFESIONAL*/
-    .textoCP{
-
-    }
     .mainCP{
         display: flex;
         flex-wrap: wrap;
@@ -448,13 +473,29 @@ footer{
     }
     .textoParrafo{
         padding-right: 0rem;
-        margin-right: 0rem;
+        margin-right: 3rem;
         margin-top: 9.5rem;
         font-size: 1.5rem;
     }
+    
 }
 
 @media (max-width:500px) {
+    .footer{
+        display: block;        
+        margin:0;
+    }
+    .redes{
+        scale: 0.55;
+        margin: 8rem 2rem 0rem 0rem;
+        width: 425px;
+        height: 80px;
+    }
+
+    .spanFooter{
+        font-size: 110%;
+        margin: 0rem 1rem 2rem 5.5rem;
+    }
     .gridContainer{
         grid-template-columns: 1fr;
     }
@@ -503,3 +544,99 @@ footer{
         height:45px ;
     }
 }
+
+/* Para carrera profesional */
+body{
+    background-color: rgb(43, 39, 39);
+}
+
+.textoCP{
+    color: white;
+    font-size: 2rem;
+    margin: 3rem 3rem 3rem 1rem;
+    margin-top: 6rem;
+}
+
+.mainCP{
+    margin-top: 13rem;
+}
+
+.tituloCP{
+    font-size: 7rem;
+    margin-left: 30rem;
+}
+
+.subtitulosCP{
+    font-size: 4rem;
+    padding-top: 10rem;
+    color: rgb(46, 188, 207);
+    margin-left: 29rem;
+}
+
+.parrafoCP{
+    margin-right: 40rem;
+    
+}
+
+.DatosInteresCP{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 460px;
+    text-align: center;
+}
+
+.padreInteresCP{
+    height: 550px;
+    width: auto;
+    margin-top: 0rem;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.parrafoInteres{
+    margin-top: 4rem;
+    margin-left: 44rem;
+    width: 40rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.75rem;
+}
+
+.anios{
+    font-weight: 900;
+    color: black;
+    font-size: 3rem;
+}
+
+.DatosI{
+    margin-top: 5rem;
+    text-align: center;
+    margin-left: 0;
+}
+
+.mldi{
+    margin-left: 0;
+    color: black;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.margenLinea{
+    margin-top: 5rem;
+}
+
+.alineamientoCP{
+    margin-top: 13rem;
+}
+.alineamientoCP2{
+    margin-top: 6rem;
+}
+
+.hoverCP:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
