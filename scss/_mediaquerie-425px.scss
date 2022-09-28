@@ -1,0 +1,64 @@
+@media (max-width:500px) {
+    .footer{
+        display: block;        
+        margin:0;
+    }
+    .redes{
+        scale: 0.55;
+        margin: 8rem 2rem 0rem 0rem;
+        width: 425px;
+        height: 80px;
+    }
+
+    .spanFooter{
+        font-size: 110%;
+        margin: 0rem 1rem 2rem 5.5rem;
+    }
+    .gridContainer{
+        grid-template-columns: 1fr;
+    }
+    .displayFlex{
+        display: block;
+    }
+    .fotoAguero{
+        margin-left: 6rem;
+        margin-top: 2rem;
+        width: 30rem;
+        height: 17rem;
+    }
+    .textoParrafo2{
+        font-size: 150%;
+        margin: 3rem 6rem 0 6rem;
+    }
+    .textoParrafo{
+        font-size: 150%;
+        margin: 3rem 6rem 0 6rem;
+    }
+    .fotoAguero2{
+        margin: 4rem 0 0 6rem;
+        width: 30rem;
+        height: 17rem;
+    }
+    .textoMenu{
+        font-size: 110%;
+        margin-left: 9rem;
+        text-decoration: none;
+    }
+    .centradoMenu{
+        margin-left: 0;
+    }
+    .menuPrincipal ul li{
+        padding: 0.2rem;
+        display: block;
+        list-style-type: none;
+    }
+    .tituloPrincipal{
+        font-size: 3.5rem;
+    }
+    .logoNombre{
+        font-size: 170%;
+    }
+    .logo{
+        height:45px ;
+    }
+}

@@ -1,0 +1,49 @@
+/* Para museo */
+
+.aguero1{
+    height: 26rem;
+    grid-area: Aguero1;
+}
+.aguero2{
+    height: 22,5rem;
+    width: 47rem;
+    grid-area: Aguero2;
+}
+.aguero3{
+    grid-area: Aguero3;
+}
+.aguero4{
+    grid-area: Aguero4;
+}
+.aguero5{
+    grid-area: Aguero5;
+}
+.aguero6{
+    grid-area: Aguero6;
+}
+.aguero7{
+    grid-area: Aguero7;
+}
+.aguero8{
+    grid-area: Aguero8;
+}
+.aguero9{
+    grid-area: Aguero9;
+}
+.fotosAguero{
+    margin: 1rem;
+}
+
+.gridMenu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-area:
+    "Aguero1 Aguero2 Aguero2"
+    "Aguero3 Aguero4 Aguero5" 
+    "Aguero3 Aguero6 Aguero5"
+    "Aguero7 Aguero8 Aguero9";
+    height: 1000px;
+    width: 2500px;
+    margin: 15rem 0 0 3rem;
+}

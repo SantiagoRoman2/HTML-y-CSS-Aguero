@@ -1,0 +1,243 @@
+@import "index";
+@import "cp";
+@import "museo";
+@import "contacto";
+/* Al final estan los imports de los media queries */
+
+$colorPrincipal:rgb(46, 188, 207);
+
+
+/* Para navegacion */
+.sectionNav{
+    display: block;
+    margin-top: 15rem;
+}
+.tituloNav{
+    margin-left: 30rem;
+}
+.links{
+    display: block;
+    margin-left: 5rem;
+    font-size: 3rem;
+}
+
+header{
+    display:flex;
+    height: 70px;
+    background-color: $colorPrincipal;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background: radial-gradient($colorPrincipal, rgb(148, 195, 202));
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+}
+
+.logoNombre{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-left: 1rem;
+    transition: all 0.5s;
+    &:hover{
+        font-size: 110%;
+        color: white;
+    }
+}
+
+.menuPrincipal ul li{
+    display: inline-block;
+    padding: 2rem 3rem;
+}
+
+.textoMenu{
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+
+.centradoMenu{
+    margin-left: 10rem;
+}
+
+.fotoAguero{
+    width: 42rem;
+    height: 24rem;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    transform: skew(2deg, 1.5deg);
+}
+
+.displayFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoParrafo{
+    font-size: 2.2rem;
+    text-align: justify;
+    display: inline-block;
+    margin: 3rem 35rem 0rem 5rem;
+    color: rgb(217, 231, 233);
+}
+
+.parrafoCP{
+    margin-right: 50rem;
+    font-size: 2.4rem;
+    color: rgb(217, 231, 233);
+}
+
+.tituloPrincipal{
+    font-size: 9rem;
+    display: block;
+    text-align: center;
+    margin: 13rem 0 2rem 0;
+}
+
+.fotoAguero2{
+    width: 42rem;
+    height: 24rem;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 10rem;
+    transform: skew(2deg, 1.5deg);
+}
+
+.textoParrafo2{
+    font-size: 2rem;
+    text-align: justify;
+    display: inline-block;
+    margin: 10rem 60rem 0rem 5rem;
+    color: rgb(226, 235, 236);
+}
+
+.italica{
+    font-style: italic;
+}
+
+.colorFondo{
+    background-color:rgb(133, 174, 161);
+}
+
+
+.imagenFondo {
+    background-image: url("../Multimedia/ImagenAguero3.jpg");
+}
+
+.Kun {
+    color: antiquewhite;
+}
+
+.uKun{
+    color: yellow;
+}
+
+/*Para que todos los h1 tengan color celeste por ej*/
+h1{
+    color:$colorPrincipal;
+}
+
+.spanFooter{
+    font-size: 1.3rem;
+    margin: 3rem 0 0 3rem;
+    display: block;
+    color: rgb(226, 235, 236)
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    margin-top: 15rem;
+    display: flex;
+}
+
+.redes{
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    margin: 0 0 3rem 2rem;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            width: 75px;
+            height: 75px;
+            line-height: 75px;
+            margin: 0 10px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 5px solid white;
+            float: left;
+            transition: all o.5s ease;
+            .fa{
+                color: white;
+                margin-top: 20px;
+                transition: all o.5s ease;
+            }
+            &:hover.facebook{
+                border: 5px solid #3b5998;
+                box-shadow: 0 0 15px #3b5998;
+                transition: all 0.5s ease;
+            }
+            &:hover .fa-facebook{
+                color: #3b5998;
+                text-shadow: 0 0 15px #3b5998;
+                transition: all 0.5s ease;
+            }
+            &:hover.twitter{
+                border: 5px solid #00aced;
+                box-shadow: 0 0 15px #00aced;
+                transition: all 0.5s ease;
+            }
+            &:hover .fa-twitter{
+                color: #00aced;
+                text-shadow: 0 0 15px #00aced;
+                transition: all 0.5s ease;
+            }
+            &:hover.instagram{
+                border: 5px solid #bc2a8d ;
+                box-shadow: 0 0 15px #bc2a8d;
+                transition: all 0.5s ease;
+            }
+            &:hover .fa-instagram{
+                color: #bc2a8d;
+                text-shadow: 0 0 15px #bc2a8d;
+                transition: all 0.5s ease;
+            }
+            &:hover.whatsapp{
+                border: 5px solid #4dc247 ;
+                box-shadow: 0 0 15px #4dc247;
+                transition: all 0.5s ease;
+            }
+            &:hover .fa-whatsapp{
+                color: #4dc247;
+                text-shadow: 0 0 15px #4dc247;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}
+
+@import "mediaquerie-768px";
+@import "mediaquerie-425px";

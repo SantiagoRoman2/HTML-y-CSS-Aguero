@@ -184,12 +184,9 @@ header{
     font-size: 2rem;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
-}
-
-nav a {
     font-weight: 600;
     padding-left: 1rem;
     transition: all 0.5s;
@@ -263,7 +260,7 @@ nav a:hover{
     font-size: 2rem;
     text-align: justify;
     display: inline-block;
-    margin: 20rem 60rem 0rem 5rem;
+    margin: 10rem 60rem 0rem 5rem;
     color: rgb(226, 235, 236);
 }
 
@@ -281,7 +278,7 @@ nav a:hover{
 }
 
 .imagenFondoCP {
-    background-image: url("../Multimedia/ImagenAguero3.jpg");
+    background: url("../Multimedia/ImagenAguero3.jpg") ;
     background-size: cover;
 }
 
@@ -638,5 +635,11 @@ body{
     transition: all 0.5s;
     font-size: 4rem;
     font-weight: 900;
+}
+
+.centradoCP{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 

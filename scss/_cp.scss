@@ -1,0 +1,121 @@
+/* Aplicacion de Grids */
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 0,5fr 3fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+.gridContainerHijos{
+    text-align: center;
+    padding: 10px;
+
+}
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+
+/* Para carrera profesional */
+.imagenFondoCP {
+    background: url("../Multimedia/ImagenAguero3.jpg") ;
+    background-size: cover;
+}
+
+body{
+    background-color: rgb(43, 39, 39);
+}
+
+.textoCP{
+    color: white;
+    font-size: 2rem;
+    margin: 3rem 3rem 3rem 0rem;
+    margin-top: 6rem;
+}
+
+.mainCP{
+    margin-top: 13rem;
+}
+
+.tituloCP{
+    font-size: 7rem;
+    margin-left: 30rem;
+}
+
+.subtitulosCP{
+    font-size: 4rem;
+    padding-top: 10rem;
+    color: rgb(46, 188, 207);
+    margin-left: 29rem;
+}
+
+.parrafoCP{
+    margin-right: 40rem;
+}
+
+.DatosInteresCP{
+    display: flex;
+    flex-direction: column;
+}
+
+.padreInteresCP{
+    height: auto;
+}
+
+.parrafoInteres{
+    margin-top: 4rem;
+    width: 40rem;
+}
+
+.anios{
+    font-weight: 900;
+    color: black;
+    font-size: 3rem;
+}
+
+.DatosI{
+    margin-top: 5rem;
+    text-align: center;
+    margin-left: 0;
+}
+
+.mldi{
+    margin-left: 0;
+    color: black;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.margenLinea{
+    margin-top: 5rem;
+}
+
+.alineamientoCP{
+    margin-top: 13rem;
+}
+.alineamientoCP2{
+    margin-top: 6rem;
+}
+
+.hoverCP:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.centradoCP{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
