@@ -4,8 +4,18 @@
 @import "contacto";
 /* Al final estan los imports de los media queries */
 
+/* $colores:(
+    colorPrincipal:rgb(46, 188, 207);
+    colorSecundario: 
+) */
+
 $colorPrincipal:rgb(46, 188, 207);
 
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Para navegacion */
 .sectionNav{
@@ -84,9 +94,7 @@ nav a {
 }
 
 .displayFlex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex;
 }
 
 .textoParrafo{
