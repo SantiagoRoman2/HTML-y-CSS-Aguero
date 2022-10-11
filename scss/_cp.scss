@@ -3,27 +3,12 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 0,5fr 3fr 1fr;
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
 }
 
 .gridContainerHijos{
     text-align: center;
     padding: 10px;
 }
-
-header{
-    grid-area: header;
-}
-main{
-    grid-area: main;
-}
-footer{
-    grid-area: footer;
-}
-
 
 /* Para carrera profesional */
 .imagenFondoCP {
@@ -37,59 +22,107 @@ body{
 
 .textoCP{
     color: white;
-    font-size: 2rem;
-    margin: 6rem 3rem 3rem 0rem;
+    margin-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 .mainCP{
-    margin-top: 13rem;
+    margin: 13rem 5rem 0rem 5rem;
 }
 
 .tituloCP{
     font-size: 7rem;
-    margin-left: 30rem;
+    margin-left: 37rem;
+}
+
+.articleCP{
+    width: 130rem;
+    margin-left: 19rem;
 }
 
 .subtitulosCP{
     font-size: 4rem;
-    padding-top: 10rem;
     color: rgb(46, 188, 207);
-    margin-left: 29rem;
+    margin-left: 9rem;
+}
+.subtitulosCP2{
+    @extend .subtitulosCP;
+    margin-left: 14rem;
+}
+.subtitulosCP3{
+    @extend .subtitulosCP;
+    color: rgb(220, 193, 193);
+}
+ 
+.parrafoCP{
+    text-align: justify;
+    margin: 3rem 5rem 0 5rem;
+    font-size: 2.3rem;
 }
 
-.parrafoCP{
-    margin-right: 40rem;
+.divCP{
+    justify-content: space-between;
+    background: radial-gradient(rgb(58, 47, 23), rgb(37, 30, 19));
+    height: 42rem;
+    margin-top: 10rem;
+    padding-left: 4rem;
+    border-style: groove;
+}
+
+.fotoAgueroTray{
+    width: 42rem;
+    height: 24rem;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    transform: skew(2deg, 1.5deg);
+}
+
+.fotoAgueroCP{
+    @extend .fotoAguero;
+    margin-left: 5rem;
+    width: 55rem;
+    height: 27rem;
+}
+
+.fotoAgueroCPdebut{
+    width: auto;
+    margin-top: 3rem ;
+}
+
+.fotoAgueroCPdebutS{
+    @extend .fotoAguero;
+    width: auto;
+    transform: none;
 }
 
 .DatosInteresCP{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .padreInteresCP{
     height: auto;
-}
-
-.parrafoInteres{
-    margin-top: 4rem;
-    width: 40rem;
+    width: auto;
+    background: radial-gradient(rgb(58, 47, 23), rgb(37, 30, 19));
+    border-style: groove;
 }
 
 .anios{
     font-weight: 900;
     color: rgb(220, 193, 193);
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-left: 5rem;
 }
 
 .DatosI{
     margin-top: 5rem;
     text-align: center;
-    margin-left: 0;
 }
 
 .mldi{
     margin-left: 0;
-    color: rgb(255, 255, 255);
     font-weight: 900;
     font-size: 4rem;
 }
@@ -98,18 +131,10 @@ body{
     margin-top: 5rem;
 }
 
-.alineamientoCP{
-    margin-top: 13rem;
-}
-.alineamientoCP2{
-    margin-top: 6rem;
-}
-
 .hoverCP:hover{
-    scale: 1.1;
+    scale: 1.05;
     transition: all 0.5s;
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 3rem;
 }
 
 .centradoCP{

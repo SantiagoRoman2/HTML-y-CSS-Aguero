@@ -1,0 +1,36 @@
+
+.tituloNav{
+    margin-left: 30rem;
+}
+.links{
+    display: block;
+    margin-left: 5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.gridNov{
+    display: grid;
+    /* background-color: rgb(146, 146, 110); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.6fr 0.5fr 0.2fr 0.01fr;
+    height: 500px;
+    width: 1380px;
+    margin: 12rem 3rem 0 3rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.cajaTituloNov{
+    grid-column: 1/4;
+    font-size: 5rem;
+    text-align: center;
+}
+.cajaPNov{
+    grid-column: 1/4;
+    text-align: center;
+    width: 800px;
+    font-size: 3rem;
+    color: aliceblue;
+}

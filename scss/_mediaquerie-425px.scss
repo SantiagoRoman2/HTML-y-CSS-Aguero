@@ -1,4 +1,5 @@
 @media (max-width:500px) {
+    /* INDEX */
     .footer{
         display: block;        
         margin:0;
@@ -60,5 +61,131 @@
     }
     .logo{
         height:45px ;
+    }
+    .fotoAgueroI{
+        margin-top: 0rem;
+    }
+
+    /* PARA CARRERA PROFESIONAL */
+    .articleCP{
+        width: auto;
+        margin-top: 1rem;
+    }
+    .tituloCP{
+        font-size: 3.18rem;
+        margin-left: 4rem;
+        display: block;
+        height: 3rem;
+        padding-top: 1.5rem;
+    }
+    .mainCP{
+        margin: 11rem 3rem 0rem 3rem;
+    }
+    .fotoAguero{
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+    }
+    .textoParrafo{
+        width: auto;
+        margin: 2rem 6rem 0 6rem;
+    }
+    .divCP{
+        margin-top: 4rem;
+        height: 48rem;
+        padding: 0;
+    }
+    .subtitulosCP {
+        font-size: 2.7rem;
+        margin-left: 6.5rem;
+    }
+    .fotoAgueroCPdebut {
+        margin-left: 7.3rem;
+        margin-top: 1rem;
+    }
+    .parrafoCP {
+        margin: 2rem 3rem 0 6rem;
+        width: 24rem;
+    }
+    .sectionSeleccion{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+    .margenLinea{
+        margin-top: 38rem;
+    }
+    .fotoAgueroCPdebutS{
+        margin-right: 5rem;
+        width: 29rem;
+        height: 17rem;
+        align-items: flex-start;
+    }
+    .subtitulosCP2{
+        display: inline-block;
+        font-size: 2.7rem;
+        width: 25rem;
+        margin-left: 5.5rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .padreInteresCP {
+        margin-top: 3rem;
+    }
+    .anios{
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .redes{
+        margin-top: 3rem;
+    }
+    .DatosI{
+        margin-right: 7rem;
+    }
+    header{
+        width: 42.5rem;
+    }
+    .fotoAgueroTray{
+        margin-left: 2rem;
+        margin-top: 2rem;
+        width: 30rem;
+        height: 17rem;
+    }
+
+    /* MUSEO */
+    .gridLayout{
+        width: 385px;
+        margin: 11rem 2rem 0 2rem;
+        height: 570px;
+    }
+    .cajaHoriz{
+        width: 10rem;
+        height: 7.5rem;
+    }
+    .cajaVert{
+        width: 7.5rem;
+        height: 10rem;
+    }
+    .caja{
+        padding: 0.03rem;
+        margin-top: 1rem;
+    }
+    .cajaVideo{
+        width: 185px;
+        height: 104px;
+    }
+    .cajaVideo2{
+        width: 185px;
+        height: 104px;
+    }
+    .pVideo{
+        font-weight: 800;
+        font-size: 1.7rem;
+    }
+    .pVideo2{
+        font-weight: 800;
+        font-size: 1.7rem;
     }
 }

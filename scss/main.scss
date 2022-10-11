@@ -1,7 +1,7 @@
 @import "index";
-@import "cp";
 @import "museo";
 @import "contacto";
+@import "novedades";
 /* Al final estan los imports de los media queries */
 
 /* $colores:(
@@ -17,8 +17,13 @@ $colorPrincipal:rgb(46, 188, 207);
     justify-content: center;
 }
 
+.resaltado{
+    color: orangered;
+    font-weight: 600;
+}
+
 /* Para navegacion */
-.sectionNav{
+.sectionNov{
     display: block;
     margin-top: 15rem;
 }
@@ -65,7 +70,6 @@ nav a {
     padding-left: 1rem;
     transition: all 0.5s;
     &:hover{
-        font-size: 110%;
         color: white;
     }
 }
@@ -88,7 +92,7 @@ nav a {
     width: 42rem;
     height: 24rem;
     display: inline-block;
-    margin-left: 3rem;
+    margin-left: 5rem;
     margin-top: 3rem;
     transform: skew(2deg, 1.5deg);
 }
@@ -122,8 +126,17 @@ nav a {
     width: 42rem;
     height: 24rem;
     display: inline-block;
-    margin-left: 3rem;
+    margin-left: 5rem;
     margin-top: 10rem;
+    transform: skew(2deg, 1.5deg);
+}
+
+.fotoAgueroI{
+    width: 42rem;
+    height: 24rem;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
     transform: skew(2deg, 1.5deg);
 }
 
@@ -183,7 +196,7 @@ h1{
     top: 50%;
     left: 50%;
     width: 550px;
-    margin: 0 0 3rem 2rem;
+    margin: 0 0 3rem 5rem;
     ul{
         list-style: none;
         li{
@@ -246,6 +259,6 @@ h1{
         }
     }
 }
-
+@import "cp";
 @import "mediaquerie-768px";
 @import "mediaquerie-425px";
