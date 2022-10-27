@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <link rel="shortcut icon" href="../Multimedia/favicon-32x32.ico" type="image/x-icon">
-    <link href="../CSS/estilos.css" rel="stylesheet" type="text/css">
+    <link href="../CSS/main.css" rel="stylesheet" type="text/css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <header class="header">
 		<!--Logo y navegacion-->
         <div class="logo">
-			<img src="../Multimedia/logoAguero.png" alt="logo" class="logoimg">
+			<a href="../index.html" class="logo"><img src="../Multimedia/logoAguero.png" alt="logo" class="logoimg"></a>
 			<h2 class="logoNombre">
 				<strong>Sergio Agüero</strong>
 			</h2>
@@ -38,27 +38,27 @@
 		</nav>
 
 	</header>
-<br><br><br>
-    <section class="sectionCon">
-        <h1><strong><span>Contacto</span></strong></h1>
-        <p>
-            Nos interesa conocer su opinion, cualquier sugerencia o inquietud que tenga,
-            para ello lo invito a llenar el siguiente formulario
+
+    <section class="gridContacto">
+        <h1 class="cajaTituloContacto"><strong>Contacto</strong></h1>
+        <p class="cajaPContacto">
+            Nos interesa conocer su opinion, para cualquier sugerencia o inquietud que tenga,
+            lo invito a llenar el siguiente formulario
         </p>
-    </section>
 
     <!--Formulario de contacto-->
-    <section>
-        <article class="formulario">
+        <article class="cajaFormulario">
             <form action="">
-                <p>Nombre</p>
+                <p class="formMargen">Nombre</p>
                 <input type="text">
-                <p>Email</p>
-                <input type="text">
-                <p>Deje su mensaje</p>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" name="" id="">
-                <input type="reset" name="" id="">
+                <p class="formMargen">Email</p>
+                <input type="email">
+                <p class="formMargen formDeje">Deje su mensaje</p>
+                <textarea class="textArea" name="" id="" cols="60" rows="15"></textarea>
+                <article class="articleForm">
+                    <input class="botones" type="submit" name="" id="">
+                    <input class="botones" type="reset" name="" id="">
+                </article>
             </form>
         </article>
     </section>
