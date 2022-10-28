@@ -118,6 +118,18 @@
     .footer{
         margin-top: 5rem;
     }
+    .fotoAgueroTray{
+        width: 31.5rem;
+        height: 18rem;
+        display: inline-block;
+        margin-left: 0rem;
+        margin-top: 4rem;
+        transform: skew(2deg, 1.5deg);
+    }
+    .textoPCP{
+        margin-right: 5.5rem;
+    }
+
 
     /* MUSEO */
     .gridLayout{
@@ -154,29 +166,27 @@
     }
 
 
-
-
     /* NOVEDADES */
     .gridNov{
-        width: 668px;
-        height: 750px;
-        scale: 0.7;
-    } 
-    .AgueroRedes{
-        scale: 0.9;
+        grid-template-rows: 0.25fr 0.4fr 0.3fr 0.2fr;
+        height: 500px;
+        width: 705px;
+    }
+    
+    .cajaTituloNov{
+        font-size: 3.5rem;
     }
     .cajaPNov{
-        grid-column: 1/4;
-        text-align: center;
-        width: 600px;
-        font-size: 3rem;
-        color: aliceblue;
+        width: 560px;
+        font-size: 2.5rem;
     }
-
-
-
-
-
+    .AgueroRedes{
+        width: 216px;
+        height: 133px;
+    }
+    .links{
+        font-size: 2rem;
+    }
 
     /* CONTACTO */
     .gridContacto{

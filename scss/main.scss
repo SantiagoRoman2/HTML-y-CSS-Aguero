@@ -11,6 +11,10 @@
 
 $colorPrincipal:rgb(46, 188, 207);
 
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 @mixin flex {
     display: flex;
     align-items: center;
@@ -245,6 +249,23 @@ h1{
         }
     }
 }
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+
 @import "cp";
 @import "mediaquerie-768px";
 @import "mediaquerie-425px";

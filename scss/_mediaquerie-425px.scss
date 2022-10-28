@@ -1,4 +1,4 @@
-@media (max-width:500px) {
+@media (max-width:426px) {
     /* INDEX */
     .footer{
         display: block;        
@@ -189,7 +189,37 @@
         font-size: 1.7rem;
     }
 
+
+
+
     /* NOVEDADES */
+    .gridNov{
+        grid-template-rows: 0.2fr 0.4fr 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 11fr 1fr 1fr;
+        height: 700px;
+        width: 370px;
+        justify-content: center;
+        grid-auto-flow: column;
+    }
+    .cajaTituloNov{
+        font-size: 3rem;
+    }
+    .cajaPNov{
+        width: 350px;
+        font-size: 2rem;
+    }
+    .AgueroRedes{
+        grid-column: 1/4;
+        grid-row-start: 6;
+        width: 228px;
+        height: 143px;
+    }
+    .links{
+        grid-column: 2/3;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
 
     /* CONTACTO */
     .gridContacto{

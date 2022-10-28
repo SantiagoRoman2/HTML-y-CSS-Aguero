@@ -74,7 +74,7 @@ body{
     height: 24rem;
     display: inline-block;
     margin-left: 5rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
     transform: skew(2deg, 1.5deg);
 }
 
@@ -140,4 +140,9 @@ body{
 .centradoCP{
     @extend .DatosInteresCP;
     align-content: center;
+}
+
+.textoPCP{
+    @extend .textoParrafo;
+    margin-top: 8rem;
 }
